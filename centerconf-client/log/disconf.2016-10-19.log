@@ -1,0 +1,656 @@
+2016-10-19 11:41:17,905 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=10000]
+2016-10-19 11:41:18,112 [main] INFO  wiremock.org.mortbay.log - Logging to Logger[wiremock.org.mortbay.log] via wiremock.org.mortbay.log.Slf4jLog
+2016-10-19 11:41:18,142 [main] INFO  wiremock.org.mortbay.log - jetty-6.1.x
+2016-10-19 11:41:18,151 [main] INFO  wiremock.org.mortbay.log - Started DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:41:18,439 [1089930529@qtp-1650113431-0] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler
+2016-10-19 11:41:18,559 [main] INFO  wiremock.org.mortbay.log - Stopped DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:41:18,684 [main] INFO  wiremock.org.mortbay.log - jetty-6.1.x
+2016-10-19 11:41:18,686 [main] INFO  wiremock.org.mortbay.log - Started DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:41:18,700 [1630841930@qtp-814111376-0] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler
+2016-10-19 11:41:18,788 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ BEFORE DISCONF ==============================
+2016-10-19 11:41:18,788 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - before disconf values:
+2016-10-19 11:41:18,809 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA: 15
+2016-10-19 11:41:18,809 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA2: 25
+2016-10-19 11:41:18,816 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varAA: 10
+2016-10-19 11:41:18,816 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ BEFORE DISCONF ==============================
+2016-10-19 11:41:18,833 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-10-19 11:41:18,837 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: XN041078_0_ca6e5dc5-d42e-42e7-b859-3de87e89681d
+2016-10-19 11:41:18,845 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: D:\svn-workspace\disconf-master\disconf-client\target\test-classes
+2016-10-19 11:41:18,853 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-10-19 11:41:18,853 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-10-19 11:41:18,853 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-10-19 11:41:18,853 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-10-19 11:41:18,858 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:9289, 127.0.0.1:9289]
+2016-10-19 11:41:18,858 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-10-19 11:41:18,858 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_testcase
+2016-10-19 11:41:18,858 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-10-19 11:41:18,858 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-10-19 11:41:18,859 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: true
+2016-10-19 11:41:18,859 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download
+2016-10-19 11:41:18,859 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: [ignoreB.properties]
+2016-10-19 11:41:18,859 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 3
+2016-10-19 11:41:18,859 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 5
+2016-10-19 11:41:18,859 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-10-19 11:41:18,859 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: D:\svn-workspace\disconf-master\disconf-client\target\test-classes
+2016-10-19 11:41:18,859 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-10-19 11:41:18,859 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-10-19 11:41:18,879 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.baidu.disconf.client.test]
+2016-10-19 11:41:18,951 [main] INFO  org.reflections.Reflections - Reflections took 45 ms to scan 1 urls, producing 33 keys and 189 values 
+2016-10-19 11:41:18,963 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.baidu.disconf.client.test.model.EmptyConf
+2016-10-19 11:41:19,101 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: atomserverl.properties	=============================
+2016-10-19 11:41:19,104 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-9a74bcc2badb453f9cdc00dea782f00c
+2016-10-19 11:41:19,111 [425651957@qtp-814111376-2] INFO  / - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler
+2016-10-19 11:41:19,120 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-9a74bcc2badb453f9cdc00dea782f00c
+2016-10-19 11:41:19,122 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-9a74bcc2badb453f9cdc00dea782f00c to D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties
+2016-10-19 11:41:19,125 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-9a74bcc2badb453f9cdc00dea782f00c to D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverl.properties
+2016-10-19 11:41:19,127 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverl.properties
+2016-10-19 11:41:19,127 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,134 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - server	10.81.11.243:16600,10.81.11.243:16602,10.81.11.243:16603
+2016-10-19 11:41:19,134 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - retry	3
+2016-10-19 11:41:19,137 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,138 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,138 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: staticConf.properties	=============================
+2016-10-19 11:41:19,139 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-3d7f83195fbb46db9635f4efcac987c4
+2016-10-19 11:41:19,141 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-3d7f83195fbb46db9635f4efcac987c4
+2016-10-19 11:41:19,142 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-3d7f83195fbb46db9635f4efcac987c4 to D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties
+2016-10-19 11:41:19,144 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-3d7f83195fbb46db9635f4efcac987c4 to D:\svn-workspace\disconf-master\disconf-client\target\test-classes\staticConf.properties
+2016-10-19 11:41:19,146 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\staticConf.properties
+2016-10-19 11:41:19,146 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,147 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar	50
+2016-10-19 11:41:19,148 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar2	100
+2016-10-19 11:41:19,148 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,148 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,149 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: empty.properties	=============================
+2016-10-19 11:41:19,149 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-32beb4c762a24b2f964d6170d6fab685
+2016-10-19 11:41:19,151 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-32beb4c762a24b2f964d6170d6fab685
+2016-10-19 11:41:19,151 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-32beb4c762a24b2f964d6170d6fab685 to D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties
+2016-10-19 11:41:19,153 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-32beb4c762a24b2f964d6170d6fab685 to D:\svn-workspace\disconf-master\disconf-client\target\test-classes\empty.properties
+2016-10-19 11:41:19,154 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\empty.properties
+2016-10-19 11:41:19,154 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA2	2000
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA	1000
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: confA.properties	=============================
+2016-10-19 11:41:19,156 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-e9d49dbdf7e044cd8d6b339757932257
+2016-10-19 11:41:19,158 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-e9d49dbdf7e044cd8d6b339757932257
+2016-10-19 11:41:19,159 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-e9d49dbdf7e044cd8d6b339757932257 to D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties
+2016-10-19 11:41:19,160 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-e9d49dbdf7e044cd8d6b339757932257 to D:\svn-workspace\disconf-master\disconf-client\target\test-classes\confA.properties
+2016-10-19 11:41:19,162 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\confA.properties
+2016-10-19 11:41:19,162 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,163 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA2	2000
+2016-10-19 11:41:19,163 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA	1000
+2016-10-19 11:41:19,163 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,164 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,164 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: atomserverm_slave.properties	=============================
+2016-10-19 11:41:19,164 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-085c7d5b5b4a49b88c6c12bcf626b53b
+2016-10-19 11:41:19,167 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-085c7d5b5b4a49b88c6c12bcf626b53b
+2016-10-19 11:41:19,167 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-085c7d5b5b4a49b88c6c12bcf626b53b to D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties
+2016-10-19 11:41:19,169 [main] DEBUG com.baidu.disconf.core.common.utils.OsUtil - start to replace D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-085c7d5b5b4a49b88c6c12bcf626b53b to D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverm_slave.properties
+2016-10-19 11:41:19,170 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverm_slave.properties
+2016-10-19 11:41:19,170 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,171 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - server	10.23.247.6:16700,10.23.247.22:16700,10.65.25.6:16700,10.65.25.7:16700
+2016-10-19 11:41:19,172 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - retry	3
+2016-10-19 11:41:19,172 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,172 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,172 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: keyA	=============================
+2016-10-19 11:41:19,176 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-10-19 11:41:19,209 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json
+2016-10-19 11:41:19,210 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Length	40
+2016-10-19 11:41:19,210 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Jetty(6.1.x)
+2016-10-19 11:41:19,210 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-10-19 11:41:19,214 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=1000]
+2016-10-19 11:41:19,214 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: 1000
+2016-10-19 11:41:19,214 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-10-19 11:41:19,214 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-10-19 11:41:19,215 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-10-19 11:41:19,215 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-10-19 11:41:19,215 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-10-19 11:41:19,221 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: atomserverl.properties	=============================
+2016-10-19 11:41:19,221 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: staticConf.properties	=============================
+2016-10-19 11:41:19,221 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - staticvar is a static field. 
+2016-10-19 11:41:19,222 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - staticvar2 is a static field. 
+2016-10-19 11:41:19,222 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: empty.properties	=============================
+2016-10-19 11:41:19,222 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: confA.properties	=============================
+2016-10-19 11:41:19,222 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - confa.varA2 is a non-static field. 
+2016-10-19 11:41:19,222 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - confa.varA is a non-static field. 
+2016-10-19 11:41:19,223 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: atomserverm_slave.properties	=============================
+2016-10-19 11:41:19,223 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: keyA	=============================
+2016-10-19 11:41:19,223 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - keyA is a non-static field. 
+2016-10-19 11:41:19,223 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	atomserverl.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverl.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	staticConf.properties	
+	DisconfCenterFile [
+	keyMaps={staticvar=FileItemValue{value=50, field=private static int com.baidu.disconf.client.test.model.StaticConf.staticvar, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int)}, staticvar2=FileItemValue{value=100.0, field=private static double com.baidu.disconf.client.test.model.StaticConf.staticvar2, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)}}
+	cls=class com.baidu.disconf.client.test.model.StaticConf
+	fileName=staticConf.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	empty.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.baidu.disconf.client.test.model.EmptyConf
+	fileName=empty.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.EmptyConf@5292ceca
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	confA.properties	
+	DisconfCenterFile [
+	keyMaps={confa.varA2=FileItemValue{value=2000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA2, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)}, confa.varA=FileItemValue{value=1000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long)}}
+	cls=class com.baidu.disconf.client.test.model.ConfA
+	fileName=confA.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ConfA@3cce57c7
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@13d9261f, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback@e9ef5b6], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	atomserverm_slave.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverm_slave.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:41:19,224 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	keyA	
+	DisconfCenterItem [
+	key=keyA
+	value=1000
+	field=private int com.baidu.disconf.client.test.model.ServiceA.varAA
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ServiceA@7d898981
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=disconf_testcase&env=rd&key=keyA&type=1
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@13d9261f], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:41:19,224 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-10-19 11:41:19,224 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - 
+disconf-file:	atomserverl.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverl.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	staticConf.properties	
+	DisconfCenterFile [
+	keyMaps={staticvar=FileItemValue{value=50, field=private static int com.baidu.disconf.client.test.model.StaticConf.staticvar, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int)}, staticvar2=FileItemValue{value=100.0, field=private static double com.baidu.disconf.client.test.model.StaticConf.staticvar2, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)}}
+	cls=class com.baidu.disconf.client.test.model.StaticConf
+	fileName=staticConf.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	empty.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.baidu.disconf.client.test.model.EmptyConf
+	fileName=empty.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.EmptyConf@5292ceca
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	confA.properties	
+	DisconfCenterFile [
+	keyMaps={confa.varA2=FileItemValue{value=2000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA2, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)}, confa.varA=FileItemValue{value=1000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long)}}
+	cls=class com.baidu.disconf.client.test.model.ConfA
+	fileName=confA.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ConfA@3cce57c7
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@13d9261f, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback@e9ef5b6], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	atomserverm_slave.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverm_slave.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:41:19,231 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - 
+disItem:	keyA	
+	DisconfCenterItem [
+	key=keyA
+	value=1000
+	field=private int com.baidu.disconf.client.test.model.ServiceA.varAA
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ServiceA@7d898981
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=disconf_testcase&env=rd&key=keyA&type=1
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@13d9261f], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:41:19,231 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ AFTER DISCONF ==============================
+2016-10-19 11:41:19,234 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA , 1000)
+2016-10-19 11:41:19,235 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA: 1000
+2016-10-19 11:41:19,235 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA , 1000)
+2016-10-19 11:41:19,235 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA2 , 2000)
+2016-10-19 11:41:19,236 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA2: 2000
+2016-10-19 11:41:19,236 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA2 , 2000)
+2016-10-19 11:41:19,237 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: (keyA , 1000)
+2016-10-19 11:41:19,237 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varAA: 1000
+2016-10-19 11:41:19,237 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: (keyA , 1000)
+2016-10-19 11:41:19,237 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - static var: 50
+2016-10-19 11:41:19,239 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ AFTER DISCONF ==============================
+2016-10-19 11:41:19,319 [main] INFO  wiremock.org.mortbay.log - Stopped DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:41:19,448 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar	50
+2016-10-19 11:41:19,448 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar2	100
+2016-10-19 11:41:19,469 [main] INFO  org.reflections.Reflections - Reflections took 9 ms to scan 1 urls, producing 33 keys and 189 values 
+2016-10-19 11:41:19,470 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.baidu.disconf.client.test.model.EmptyConf
+2016-10-19 11:41:19,472 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - Now we will print store map......
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:MethodParameterScanner
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String]: [com.baidu.disconf.client.test.watch.mock.WatchMgrMock.watchPath(com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String)]
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.test.json.JsonTranslate]: [com.baidu.disconf.client.test.json.JsonTranslate$1.<init>(com.baidu.disconf.client.test.json.JsonTranslate)]
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		long: [com.baidu.disconf.client.test.model.ServiceA.calcMoneyA(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA2()]
+2016-10-19 11:41:19,473 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[org.springframework.context.ApplicationContext]: [com.baidu.disconf.client.test.DisconfMgrTestCase.setApplicationContext(org.springframework.context.ApplicationContext)]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.String, java.lang.String, boolean]: [com.baidu.disconf.client.test.watch.mock.WatchMgrMock.init(java.lang.String, java.lang.String, boolean)]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.Long: [com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2()]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[int]: [com.baidu.disconf.client.test.model.StaticConf.setStaticVar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int), com.baidu.disconf.client.test.model.ServiceA.setVarAA(int)]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.String: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.downloadFromServer(com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int)]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[]: [com.baidu.disconf.client.test.watch.WatchMgrTestCase.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.release(), com.baidu.disconf.client.test.TestSuite.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.ResourceLoaderTest(), com.baidu.disconf.client.test.support.utils.NetUtils.<init>(), com.baidu.disconf.client.test.support.utils.NetUtils.<clinit>(), com.baidu.disconf.client.test.support.utils.DirUtils.<init>(), com.baidu.disconf.client.test.support.utils.DirUtils.createTempDirectory(), com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.scan(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<clinit>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<init>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.scan(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<clinit>(), com.baidu.disconf.client.test.model.StaticConf.<init>(), com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar2(), com.baidu.disconf.client.test.model.StaticConf.<clinit>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA.<init>(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA2(), com.baidu.disconf.client.test.model.ServiceA.getVarAA(), com.baidu.disconf.client.test.model.IgnoreConfB.<init>(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.EmptyConf.<init>(), com.baidu.disconf.client.test.model.ConfA.<init>(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2(), com.baidu.disconf.client.test.json.JsonTranslate.<init>(), com.baidu.disconf.client.test.json.JsonTranslate.test(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.<init>(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.close(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<init>(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testGetValueFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testDownloadFileFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase.<init>(), com.baidu.disconf.client.test.DisconfMgrTestCase.demo(), com.baidu.disconf.client.test.DisconfMgrTestCase.testDynamicGetter(), com.baidu.disconf.client.test.DisconfMgrTestCase.getApplicationContext(), com.baidu.disconf.client.test.DisconfMgrTestCase.<clinit>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.<init>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.getKvMapTest(), com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase.<init>(), com.baidu.disconf.client.test.config.ConfigMgrTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<clinit>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<clinit>()]
+2016-10-19 11:41:19,474 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		void: [com.baidu.disconf.client.test.watch.WatchMgrTestCase.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.init(java.lang.String, java.lang.String, boolean), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.watchPath(com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.release(), com.baidu.disconf.client.test.TestSuite.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.ResourceLoaderTest(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.showResourceInfo(org.springframework.core.io.Resource, boolean), com.baidu.disconf.client.test.support.utils.NetUtils.<init>(), com.baidu.disconf.client.test.support.utils.NetUtils.<clinit>(), com.baidu.disconf.client.test.support.utils.DirUtils.<init>(), com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.scan(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<clinit>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<init>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.scan(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<clinit>(), com.baidu.disconf.client.test.model.StaticConf.<init>(), com.baidu.disconf.client.test.model.StaticConf.setStaticVar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double), com.baidu.disconf.client.test.model.StaticConf.<clinit>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA.<init>(), com.baidu.disconf.client.test.model.ServiceA.setVarAA(int), com.baidu.disconf.client.test.model.IgnoreConfB.<init>(), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA2(java.lang.Long), com.baidu.disconf.client.test.model.EmptyConf.<init>(), com.baidu.disconf.client.test.model.ConfA.<init>(), com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long), com.baidu.disconf.client.test.json.JsonTranslate.<init>(), com.baidu.disconf.client.test.json.JsonTranslate.test(), com.baidu.disconf.client.test.json.JsonTranslate$1.<init>(com.baidu.disconf.client.test.json.JsonTranslate), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.<init>(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.close(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<init>(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testGetValueFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testDownloadFileFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase.<init>(), com.baidu.disconf.client.test.DisconfMgrTestCase.demo(), com.baidu.disconf.client.test.DisconfMgrTestCase.testDynamicGetter(), com.baidu.disconf.client.test.DisconfMgrTestCase.setApplicationContext(org.springframework.context.ApplicationContext), com.baidu.disconf.client.test.DisconfMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase$1.<init>(com.baidu.disconf.client.test.DisconfMgrTestCase), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.<init>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.getKvMapTest(), com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase.<init>(), com.baidu.disconf.client.test.config.ConfigMgrTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<clinit>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<clinit>()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		double: [com.baidu.disconf.client.test.model.StaticConf.getStaticvar2()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[org.springframework.core.io.Resource, boolean]: [com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.showResourceInfo(org.springframework.core.io.Resource, boolean)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.test.DisconfMgrTestCase]: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.<init>(com.baidu.disconf.client.test.DisconfMgrTestCase)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.core.DisconfCoreMgr: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.getDisconfCoreMgr(com.baidu.disconf.client.support.registry.Registry)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.Long]: [com.baidu.disconf.client.test.model.IgnoreConfB.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA2(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int]: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.downloadFromServer(com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.support.registry.Registry]: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.getDisconfCoreMgr(com.baidu.disconf.client.support.registry.Registry)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		org.springframework.context.ApplicationContext: [com.baidu.disconf.client.test.DisconfMgrTestCase.getApplicationContext()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.io.File: [com.baidu.disconf.client.test.support.utils.DirUtils.createTempDirectory()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		int: [com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar(), com.baidu.disconf.client.test.model.ServiceA.getVarAA()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int]: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.getJsonData(java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		boolean: [com.baidu.disconf.client.test.support.utils.NetUtils.pingUrl(java.lang.String), com.baidu.disconf.client.test.common.BaseSpringTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.checkNetWork()]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[double]: [com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.Object: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.getJsonData(java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int)]
+2016-10-19 11:41:19,476 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.String]: [com.baidu.disconf.client.test.support.utils.NetUtils.pingUrl(java.lang.String)]
+2016-10-19 11:41:19,492 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:FieldAnnotationsScanner
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:MethodAnnotationsScanner
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfItem: [com.baidu.disconf.client.test.model.ServiceA.getVarAA()]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfFileItem: [com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar2(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2()]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:SubTypesScanner
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.core.test.common.BaseCoreTestCase: [com.baidu.disconf.client.test.common.BaseSpringMockTestCase]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.test.common.BaseSpringMockTestCase: [com.baidu.disconf.client.test.DisconfMgrTestCase]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.test.common.BaseSpringTestCase: [com.baidu.disconf.client.test.watch.WatchMgrTestCase, com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase, com.baidu.disconf.client.test.scan.ScanMgrTestCase, com.baidu.disconf.client.test.scan.inner.ScanPackTestCase, com.baidu.disconf.client.test.json.JsonTranslate, com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase, com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase, com.baidu.disconf.client.test.config.ConfigMgrTestCase]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.update.IDisconfUpdate: [com.baidu.disconf.client.test.model.ServiceAUpdateCallback, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:TypeAnnotationsScanner
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfFile: [com.baidu.disconf.client.test.model.StaticConf, com.baidu.disconf.client.test.model.IgnoreConfB, com.baidu.disconf.client.test.model.EmptyConf, com.baidu.disconf.client.test.model.ConfA]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfUpdateService: [com.baidu.disconf.client.test.model.ServiceAUpdateCallback, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback]
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF FILE ITEM===================
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public static double com.baidu.disconf.client.test.model.StaticConf.getStaticvar2()
+2016-10-19 11:41:19,493 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.ConfA.getVarA()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.IgnoreConfB.getVarA()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public static int com.baidu.disconf.client.test.model.StaticConf.getStaticVar()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.ConfA.getVarA2()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF FILE===================
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF ITEM===================
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public int com.baidu.disconf.client.test.model.ServiceA.getVarAA()
+2016-10-19 11:41:19,497 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF ACTIVE BACKUP===================
+2016-10-19 11:41:19,498 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF Update service===================
+2016-10-19 11:41:19,498 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - class com.baidu.disconf.client.test.model.ServiceAUpdateCallback
+2016-10-19 11:41:19,498 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - class com.baidu.disconf.client.test.model.ServiceA2UpdateCallback
+2016-10-19 11:57:27,190 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=10000]
+2016-10-19 11:57:27,398 [main] INFO  wiremock.org.mortbay.log - Logging to Logger[wiremock.org.mortbay.log] via wiremock.org.mortbay.log.Slf4jLog
+2016-10-19 11:57:27,429 [main] INFO  wiremock.org.mortbay.log - jetty-6.1.x
+2016-10-19 11:57:27,438 [main] INFO  wiremock.org.mortbay.log - Started DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:57:27,731 [1089930529@qtp-1650113431-0] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler
+2016-10-19 11:57:27,857 [main] INFO  wiremock.org.mortbay.log - Stopped DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:57:27,979 [main] INFO  wiremock.org.mortbay.log - jetty-6.1.x
+2016-10-19 11:57:27,980 [main] INFO  wiremock.org.mortbay.log - Started DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:57:27,999 [2004655561@qtp-814111376-1] INFO  /__admin - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.AdminRequestHandler
+2016-10-19 11:57:28,098 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ BEFORE DISCONF ==============================
+2016-10-19 11:57:28,098 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - before disconf values:
+2016-10-19 11:57:28,119 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA: 15
+2016-10-19 11:57:28,119 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA2: 25
+2016-10-19 11:57:28,124 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varAA: 10
+2016-10-19 11:57:28,125 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ BEFORE DISCONF ==============================
+2016-10-19 11:57:28,141 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG START ---------------
+2016-10-19 11:57:28,145 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - Finer print: XN041078_0_38ac55b3-c646-4e7e-9120-4e1e077ed938
+2016-10-19 11:57:28,151 [main] INFO  com.baidu.disconf.core.common.utils.ClassLoaderUtil - classpath: D:\svn-workspace\disconf-master\disconf-client\target\test-classes
+2016-10-19 11:57:28,161 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_store_action: /api/config
+2016-10-19 11:57:28,161 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_zoo_action: /api/zoo
+2016-10-19 11:57:28,161 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_master_num_action: /api/getmasterinfo
+2016-10-19 11:57:28,161 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.local_download_dir: ./disconf/download
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_host: [127.0.0.1:9289, 127.0.0.1:9289]
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.version: 1_0_0_0
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.app: disconf_testcase
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.env: rd
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable.remote.conf: true
+2016-10-19 11:57:28,165 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.debug: true
+2016-10-19 11:57:28,166 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.user_define_download_dir: ./disconf/download
+2016-10-19 11:57:28,166 [main] INFO  com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.ignore: [ignoreB.properties]
+2016-10-19 11:57:28,166 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_times: 3
+2016-10-19 11:57:28,166 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.conf_server_url_retry_sleep_seconds: 5
+2016-10-19 11:57:28,166 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - SERVER disconf.enable_local_download_dir_in_class_path: true
+2016-10-19 11:57:28,166 [main] DEBUG com.baidu.disconf.client.config.inner.DisInnerConfigHelper - classpath: D:\svn-workspace\disconf-master\disconf-client\target\test-classes
+2016-10-19 11:57:28,166 [main] INFO  com.baidu.disconf.client.config.ConfigMgr - --------------- LOAD CONFIG END ---------------
+2016-10-19 11:57:28,166 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START FIRST SCAN *******************************
+2016-10-19 11:57:28,185 [main] DEBUG com.baidu.disconf.client.scan.impl.ScanMgrImpl - start to scan package: [com.baidu.disconf.client.test]
+2016-10-19 11:57:28,257 [main] INFO  org.reflections.Reflections - Reflections took 44 ms to scan 1 urls, producing 33 keys and 189 values 
+2016-10-19 11:57:28,269 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.baidu.disconf.client.test.model.EmptyConf
+2016-10-19 11:57:28,398 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: atomserverl.properties	=============================
+2016-10-19 11:57:28,401 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-d23518260b664cf68c63bedac35cb404
+2016-10-19 11:57:28,407 [1133714779@qtp-814111376-3] INFO  / - RequestHandlerClass from context returned com.github.tomakehurst.wiremock.http.StubRequestHandler
+2016-10-19 11:57:28,415 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverl.properties-d23518260b664cf68c63bedac35cb404
+2016-10-19 11:57:28,419 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverl.properties
+2016-10-19 11:57:28,419 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,423 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - server	10.81.11.243:16600,10.81.11.243:16602,10.81.11.243:16603
+2016-10-19 11:57:28,423 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - retry	3
+2016-10-19 11:57:28,424 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,425 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,426 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: staticConf.properties	=============================
+2016-10-19 11:57:28,426 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-f0ac6359cdd048138a7107cf6a1504d1
+2016-10-19 11:57:28,428 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\staticConf.properties-f0ac6359cdd048138a7107cf6a1504d1
+2016-10-19 11:57:28,430 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\staticConf.properties
+2016-10-19 11:57:28,430 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,431 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar	50
+2016-10-19 11:57:28,431 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar2	100
+2016-10-19 11:57:28,432 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,432 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,432 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: empty.properties	=============================
+2016-10-19 11:57:28,432 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-09b17b8bc06b41e48a67d9d811499eb6
+2016-10-19 11:57:28,434 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\empty.properties-09b17b8bc06b41e48a67d9d811499eb6
+2016-10-19 11:57:28,437 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\empty.properties
+2016-10-19 11:57:28,437 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,438 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA2	2000
+2016-10-19 11:57:28,438 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA	1000
+2016-10-19 11:57:28,438 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,438 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,438 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: confA.properties	=============================
+2016-10-19 11:57:28,439 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-5c3827093e71497f9e9685bf003174e5
+2016-10-19 11:57:28,441 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\confA.properties-5c3827093e71497f9e9685bf003174e5
+2016-10-19 11:57:28,443 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\confA.properties
+2016-10-19 11:57:28,443 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,444 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA2	2000
+2016-10-19 11:57:28,445 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - confa.varA	1000
+2016-10-19 11:57:28,445 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,445 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,445 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to process disconf file: atomserverm_slave.properties	=============================
+2016-10-19 11:57:28,445 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - start to download. From: http://127.0.0.1:9289/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0 , TO: D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-60a1de9eabca4dc0b6852c6a0cd7b17b
+2016-10-19 11:57:28,447 [main] DEBUG com.baidu.disconf.core.common.restful.type.FetchConfFile - download success!  D:\svn-workspace\disconf-master\disconf-client\.\disconf\download\atomserverm_slave.properties-60a1de9eabca4dc0b6852c6a0cd7b17b
+2016-10-19 11:57:28,450 [main] DEBUG com.baidu.disconf.core.common.restful.impl.RestfulMgrImpl - Move to: D:\svn-workspace\disconf-master\disconf-client\target\test-classes\atomserverm_slave.properties
+2016-10-19 11:57:28,450 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,451 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - server	10.23.247.6:16700,10.23.247.22:16700,10.65.25.6:16700,10.65.25.7:16700
+2016-10-19 11:57:28,451 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - retry	3
+2016-10-19 11:57:28,451 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,451 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,451 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to process disconf item: keyA	=============================
+2016-10-19 11:57:28,454 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - request: content-type	application/json
+2016-10-19 11:57:28,490 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Type	application/json
+2016-10-19 11:57:28,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Content-Length	40
+2016-10-19 11:57:28,491 [main] DEBUG com.baidu.disconf.core.common.utils.http.HttpClientUtil - response header: Server	Jetty(6.1.x)
+2016-10-19 11:57:28,491 [main] INFO  com.baidu.disconf.core.common.utils.http.HttpClientUtil - execute http request [null], status code [200]
+2016-10-19 11:57:28,495 [main] DEBUG com.baidu.disconf.client.fetcher.impl.FetcherMgrImpl - remote server return: ValueVo [status=1, message=, value=1000]
+2016-10-19 11:57:28,495 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - value: 1000
+2016-10-19 11:57:28,495 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - download ok.
+2016-10-19 11:57:28,495 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - inject ok.
+2016-10-19 11:57:28,496 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - watch ok.
+2016-10-19 11:57:28,496 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END FIRST SCAN *******************************
+2016-10-19 11:57:28,496 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF START SECOND SCAN *******************************
+2016-10-19 11:57:28,502 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: atomserverl.properties	=============================
+2016-10-19 11:57:28,503 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: staticConf.properties	=============================
+2016-10-19 11:57:28,503 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - staticvar is a static field. 
+2016-10-19 11:57:28,503 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - staticvar2 is a static field. 
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: empty.properties	=============================
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: confA.properties	=============================
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - confa.varA2 is a non-static field. 
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreFileProcessorImpl - confa.varA is a non-static field. 
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfFileCoreProcessorImpl - ==============	start to inject value to disconf file item instance: atomserverm_slave.properties	=============================
+2016-10-19 11:57:28,504 [main] DEBUG com.baidu.disconf.client.core.processor.impl.DisconfItemCoreProcessorImpl - ==============	start to inject value to disconf item instance: keyA	=============================
+2016-10-19 11:57:28,505 [main] DEBUG com.baidu.disconf.client.store.processor.impl.DisconfStoreItemProcessorImpl - keyA is a non-static field. 
+2016-10-19 11:57:28,505 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf File Map: 
+disconf-file:	atomserverl.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverl.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	staticConf.properties	
+	DisconfCenterFile [
+	keyMaps={staticvar=FileItemValue{value=50, field=private static int com.baidu.disconf.client.test.model.StaticConf.staticvar, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int)}, staticvar2=FileItemValue{value=100.0, field=private static double com.baidu.disconf.client.test.model.StaticConf.staticvar2, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)}}
+	cls=class com.baidu.disconf.client.test.model.StaticConf
+	fileName=staticConf.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	empty.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.baidu.disconf.client.test.model.EmptyConf
+	fileName=empty.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.EmptyConf@13d9261f
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	confA.properties	
+	DisconfCenterFile [
+	keyMaps={confa.varA2=FileItemValue{value=2000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA2, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)}, confa.varA=FileItemValue{value=1000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long)}}
+	cls=class com.baidu.disconf.client.test.model.ConfA
+	fileName=confA.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ConfA@3cce57c7
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@e9ef5b6, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback@5300cac], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	atomserverm_slave.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverm_slave.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:57:28,506 [main] INFO  com.baidu.disconf.client.DisconfMgr - Conf Item Map: 
+disItem:	keyA	
+	DisconfCenterItem [
+	key=keyA
+	value=1000
+	field=private int com.baidu.disconf.client.test.model.ServiceA.varAA
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ServiceA@7d898981
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=disconf_testcase&env=rd&key=keyA&type=1
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@e9ef5b6], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:57:28,506 [main] INFO  com.baidu.disconf.client.DisconfMgr - ******************************* DISCONF END *******************************
+2016-10-19 11:57:28,506 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - 
+disconf-file:	atomserverl.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverl.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverl.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	staticConf.properties	
+	DisconfCenterFile [
+	keyMaps={staticvar=FileItemValue{value=50, field=private static int com.baidu.disconf.client.test.model.StaticConf.staticvar, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int)}, staticvar2=FileItemValue{value=100.0, field=private static double com.baidu.disconf.client.test.model.StaticConf.staticvar2, setMethod=public static void com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)}}
+	cls=class com.baidu.disconf.client.test.model.StaticConf
+	fileName=staticConf.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=staticConf.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	empty.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=class com.baidu.disconf.client.test.model.EmptyConf
+	fileName=empty.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.EmptyConf@13d9261f
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=empty.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	confA.properties	
+	DisconfCenterFile [
+	keyMaps={confa.varA2=FileItemValue{value=2000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA2, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)}, confa.varA=FileItemValue{value=1000, field=private java.lang.Long com.baidu.disconf.client.test.model.ConfA.varA, setMethod=public void com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long)}}
+	cls=class com.baidu.disconf.client.test.model.ConfA
+	fileName=confA.properties
+	targetDirPath=
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ConfA@3cce57c7
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=confA.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@e9ef5b6, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback@5300cac], disconfUpdatesActiveBackups=[]}]]
+disconf-file:	atomserverm_slave.properties	
+	DisconfCenterFile [
+	keyMaps={}
+	cls=null
+	fileName=atomserverm_slave.properties
+	targetDirPath=null
+	DisconfCenterBaseModel [
+	object=null
+	remoteServerUrl=/api/config/file?version=1_0_0_0&app=disconf_testcase&env=rd&key=atomserverm_slave.properties&type=0
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:57:28,511 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - 
+disItem:	keyA	
+	DisconfCenterItem [
+	key=keyA
+	value=1000
+	field=private int com.baidu.disconf.client.test.model.ServiceA.varAA
+	DisconfCenterBaseModel [
+	object=com.baidu.disconf.client.test.model.ServiceA@7d898981
+	remoteServerUrl=/api/config/item?version=1_0_0_0&app=disconf_testcase&env=rd&key=keyA&type=1
+	disConfCommonModel=DisConfCommonModel [app=disconf_testcase, version=1_0_0_0, env=rd]
+	disconfCommonCallbackModel=DisconfCommonCallbackModel{disconfConfUpdates=[com.baidu.disconf.client.test.model.ServiceAUpdateCallback@e9ef5b6], disconfUpdatesActiveBackups=[]}]]
+
+2016-10-19 11:57:28,512 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ AFTER DISCONF ==============================
+2016-10-19 11:57:28,514 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA , 1000)
+2016-10-19 11:57:28,514 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA: 1000
+2016-10-19 11:57:28,514 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA , 1000)
+2016-10-19 11:57:28,515 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA2 , 2000)
+2016-10-19 11:57:28,515 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varA2: 2000
+2016-10-19 11:57:28,515 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: confA.properties (confa.varA2 , 2000)
+2016-10-19 11:57:28,515 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: (keyA , 1000)
+2016-10-19 11:57:28,515 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - varAA: 1000
+2016-10-19 11:57:28,515 [main] DEBUG com.baidu.disconf.client.store.aspect.DisconfAspectJ - using disconf store value: (keyA , 1000)
+2016-10-19 11:57:28,515 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - static var: 50
+2016-10-19 11:57:28,517 [main] INFO  com.baidu.disconf.client.test.DisconfMgrTestCase - ================ AFTER DISCONF ==============================
+2016-10-19 11:57:28,615 [main] INFO  wiremock.org.mortbay.log - Stopped DelayableSocketConnector@0.0.0.0:9289
+2016-10-19 11:57:28,745 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar	50
+2016-10-19 11:57:28,745 [main] DEBUG com.baidu.disconf.client.core.filetype.FileTypeProcessorUtils - staticvar2	100
+2016-10-19 11:57:28,765 [main] INFO  org.reflections.Reflections - Reflections took 8 ms to scan 1 urls, producing 33 keys and 189 values 
+2016-10-19 11:57:28,766 [main] INFO  com.baidu.disconf.client.scan.inner.statically.strategy.ScanStaticStrategy - disconf file hasn't any items: com.baidu.disconf.client.test.model.EmptyConf
+2016-10-19 11:57:28,768 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - Now we will print store map......
+2016-10-19 11:57:28,769 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:57:28,769 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:MethodParameterScanner
+2016-10-19 11:57:28,770 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String]: [com.baidu.disconf.client.test.watch.mock.WatchMgrMock.watchPath(com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String)]
+2016-10-19 11:57:28,770 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.test.json.JsonTranslate]: [com.baidu.disconf.client.test.json.JsonTranslate$1.<init>(com.baidu.disconf.client.test.json.JsonTranslate)]
+2016-10-19 11:57:28,770 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		long: [com.baidu.disconf.client.test.model.ServiceA.calcMoneyA(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA2()]
+2016-10-19 11:57:28,770 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[org.springframework.context.ApplicationContext]: [com.baidu.disconf.client.test.DisconfMgrTestCase.setApplicationContext(org.springframework.context.ApplicationContext)]
+2016-10-19 11:57:28,770 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.String, java.lang.String, boolean]: [com.baidu.disconf.client.test.watch.mock.WatchMgrMock.init(java.lang.String, java.lang.String, boolean)]
+2016-10-19 11:57:28,771 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.Long: [com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2()]
+2016-10-19 11:57:28,771 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[int]: [com.baidu.disconf.client.test.model.StaticConf.setStaticVar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int), com.baidu.disconf.client.test.model.ServiceA.setVarAA(int)]
+2016-10-19 11:57:28,771 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.String: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.downloadFromServer(com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int)]
+2016-10-19 11:57:28,771 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[]: [com.baidu.disconf.client.test.watch.WatchMgrTestCase.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.release(), com.baidu.disconf.client.test.TestSuite.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.ResourceLoaderTest(), com.baidu.disconf.client.test.support.utils.NetUtils.<init>(), com.baidu.disconf.client.test.support.utils.NetUtils.<clinit>(), com.baidu.disconf.client.test.support.utils.DirUtils.<init>(), com.baidu.disconf.client.test.support.utils.DirUtils.createTempDirectory(), com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.scan(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<clinit>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<init>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.scan(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<clinit>(), com.baidu.disconf.client.test.model.StaticConf.<init>(), com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar2(), com.baidu.disconf.client.test.model.StaticConf.<clinit>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA.<init>(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA(), com.baidu.disconf.client.test.model.ServiceA.calcMoneyA2(), com.baidu.disconf.client.test.model.ServiceA.getVarAA(), com.baidu.disconf.client.test.model.IgnoreConfB.<init>(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.EmptyConf.<init>(), com.baidu.disconf.client.test.model.ConfA.<init>(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2(), com.baidu.disconf.client.test.json.JsonTranslate.<init>(), com.baidu.disconf.client.test.json.JsonTranslate.test(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.<init>(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.close(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<init>(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testGetValueFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testDownloadFileFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase.<init>(), com.baidu.disconf.client.test.DisconfMgrTestCase.demo(), com.baidu.disconf.client.test.DisconfMgrTestCase.testDynamicGetter(), com.baidu.disconf.client.test.DisconfMgrTestCase.getApplicationContext(), com.baidu.disconf.client.test.DisconfMgrTestCase.<clinit>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.<init>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.getKvMapTest(), com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase.<init>(), com.baidu.disconf.client.test.config.ConfigMgrTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<clinit>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<clinit>()]
+2016-10-19 11:57:28,772 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		void: [com.baidu.disconf.client.test.watch.WatchMgrTestCase.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.<init>(), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.init(java.lang.String, java.lang.String, boolean), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.watchPath(com.baidu.disconf.client.core.processor.DisconfCoreProcessor, com.baidu.disconf.client.common.model.DisConfCommonModel, java.lang.String, com.baidu.disconf.core.common.constants.DisConfigTypeEnum, java.lang.String), com.baidu.disconf.client.test.watch.mock.WatchMgrMock.release(), com.baidu.disconf.client.test.TestSuite.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.<init>(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.ResourceLoaderTest(), com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.showResourceInfo(org.springframework.core.io.Resource, boolean), com.baidu.disconf.client.test.support.utils.NetUtils.<init>(), com.baidu.disconf.client.test.support.utils.NetUtils.<clinit>(), com.baidu.disconf.client.test.support.utils.DirUtils.<init>(), com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<init>(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.scan(), com.baidu.disconf.client.test.scan.ScanMgrTestCase.<clinit>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<init>(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.scan(), com.baidu.disconf.client.test.scan.inner.ScanPackTestCase.<clinit>(), com.baidu.disconf.client.test.model.StaticConf.<init>(), com.baidu.disconf.client.test.model.StaticConf.setStaticVar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar(int), com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double), com.baidu.disconf.client.test.model.StaticConf.<clinit>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceAUpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<init>(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.reload(), com.baidu.disconf.client.test.model.ServiceA2UpdateCallback.<clinit>(), com.baidu.disconf.client.test.model.ServiceA.<init>(), com.baidu.disconf.client.test.model.ServiceA.setVarAA(int), com.baidu.disconf.client.test.model.IgnoreConfB.<init>(), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA2(java.lang.Long), com.baidu.disconf.client.test.model.EmptyConf.<init>(), com.baidu.disconf.client.test.model.ConfA.<init>(), com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long), com.baidu.disconf.client.test.json.JsonTranslate.<init>(), com.baidu.disconf.client.test.json.JsonTranslate.test(), com.baidu.disconf.client.test.json.JsonTranslate$1.<init>(com.baidu.disconf.client.test.json.JsonTranslate), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.<init>(), com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.close(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<init>(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testGetValueFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.testDownloadFileFromServer(), com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase.<init>(), com.baidu.disconf.client.test.DisconfMgrTestCase.demo(), com.baidu.disconf.client.test.DisconfMgrTestCase.testDynamicGetter(), com.baidu.disconf.client.test.DisconfMgrTestCase.setApplicationContext(org.springframework.context.ApplicationContext), com.baidu.disconf.client.test.DisconfMgrTestCase.<clinit>(), com.baidu.disconf.client.test.DisconfMgrTestCase$1.<init>(com.baidu.disconf.client.test.DisconfMgrTestCase), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.<init>(), com.baidu.disconf.client.test.core.filetype.FileTypeProcessorUtilsTestCase.getKvMapTest(), com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase.<init>(), com.baidu.disconf.client.test.config.ConfigMgrTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringTestCase.<clinit>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<init>(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.pass(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.<clinit>()]
+2016-10-19 11:57:28,774 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		double: [com.baidu.disconf.client.test.model.StaticConf.getStaticvar2()]
+2016-10-19 11:57:28,775 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[org.springframework.core.io.Resource, boolean]: [com.baidu.disconf.client.test.support.utils.TestAntPathMatcher.showResourceInfo(org.springframework.core.io.Resource, boolean)]
+2016-10-19 11:57:28,775 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.test.DisconfMgrTestCase]: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.<init>(com.baidu.disconf.client.test.DisconfMgrTestCase)]
+2016-10-19 11:57:28,775 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.core.DisconfCoreMgr: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.getDisconfCoreMgr(com.baidu.disconf.client.support.registry.Registry)]
+2016-10-19 11:57:28,775 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.Long]: [com.baidu.disconf.client.test.model.IgnoreConfB.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.IgnoreConfB.setVarA2(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA(java.lang.Long), com.baidu.disconf.client.test.model.ConfA.setVarA2(java.lang.Long)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int]: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.downloadFromServer(com.baidu.disconf.core.common.restful.core.RemoteUrl, java.lang.String, java.lang.String, java.lang.String, java.lang.String, boolean, int, int)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[com.baidu.disconf.client.support.registry.Registry]: [com.baidu.disconf.client.test.DisconfMgrTestCase$1.getDisconfCoreMgr(com.baidu.disconf.client.support.registry.Registry)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		org.springframework.context.ApplicationContext: [com.baidu.disconf.client.test.DisconfMgrTestCase.getApplicationContext()]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.io.File: [com.baidu.disconf.client.test.support.utils.DirUtils.createTempDirectory()]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		int: [com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar(), com.baidu.disconf.client.test.model.ServiceA.getVarAA()]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int]: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.getJsonData(java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		boolean: [com.baidu.disconf.client.test.support.utils.NetUtils.pingUrl(java.lang.String), com.baidu.disconf.client.test.common.BaseSpringTestCase.checkNetWork(), com.baidu.disconf.client.test.common.BaseSpringMockTestCase.checkNetWork()]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[double]: [com.baidu.disconf.client.test.model.StaticConf.setStaticvar2(double)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		java.lang.Object: [com.baidu.disconf.client.test.fetcher.inner.restful.RestfulMgrMock.getJsonData(java.lang.Class, com.baidu.disconf.core.common.restful.core.RemoteUrl, int, int)]
+2016-10-19 11:57:28,776 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		[java.lang.String]: [com.baidu.disconf.client.test.support.utils.NetUtils.pingUrl(java.lang.String)]
+2016-10-19 11:57:28,777 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:57:28,777 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:FieldAnnotationsScanner
+2016-10-19 11:57:28,777 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:57:28,777 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:MethodAnnotationsScanner
+2016-10-19 11:57:28,778 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfItem: [com.baidu.disconf.client.test.model.ServiceA.getVarAA()]
+2016-10-19 11:57:28,778 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfFileItem: [com.baidu.disconf.client.test.model.StaticConf.getStaticVar(), com.baidu.disconf.client.test.model.StaticConf.getStaticvar2(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA(), com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2(), com.baidu.disconf.client.test.model.ConfA.getVarA(), com.baidu.disconf.client.test.model.ConfA.getVarA2()]
+2016-10-19 11:57:28,778 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:57:28,778 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:SubTypesScanner
+2016-10-19 11:57:28,778 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.core.test.common.BaseCoreTestCase: [com.baidu.disconf.client.test.common.BaseSpringMockTestCase]
+2016-10-19 11:57:28,779 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.test.common.BaseSpringMockTestCase: [com.baidu.disconf.client.test.DisconfMgrTestCase]
+2016-10-19 11:57:28,779 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.test.common.BaseSpringTestCase: [com.baidu.disconf.client.test.watch.WatchMgrTestCase, com.baidu.disconf.client.test.store.DisconfStoreMgrTestCase, com.baidu.disconf.client.test.scan.ScanMgrTestCase, com.baidu.disconf.client.test.scan.inner.ScanPackTestCase, com.baidu.disconf.client.test.json.JsonTranslate, com.baidu.disconf.client.test.fetcher.FetcherMgrMgrTestCase, com.baidu.disconf.client.test.core.DisconfCoreMgrTestCase, com.baidu.disconf.client.test.config.ConfigMgrTestCase]
+2016-10-19 11:57:28,779 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.update.IDisconfUpdate: [com.baidu.disconf.client.test.model.ServiceAUpdateCallback, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback]
+2016-10-19 11:57:28,779 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - ====================================
+2016-10-19 11:57:28,779 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - indexName:TypeAnnotationsScanner
+2016-10-19 11:57:28,780 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfFile: [com.baidu.disconf.client.test.model.StaticConf, com.baidu.disconf.client.test.model.IgnoreConfB, com.baidu.disconf.client.test.model.EmptyConf, com.baidu.disconf.client.test.model.ConfA]
+2016-10-19 11:57:28,781 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - 		com.baidu.disconf.client.common.annotations.DisconfUpdateService: [com.baidu.disconf.client.test.model.ServiceAUpdateCallback, com.baidu.disconf.client.test.model.ServiceA2UpdateCallback]
+2016-10-19 11:57:28,781 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF FILE ITEM===================
+2016-10-19 11:57:28,782 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public static double com.baidu.disconf.client.test.model.StaticConf.getStaticvar2()
+2016-10-19 11:57:28,782 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.ConfA.getVarA()
+2016-10-19 11:57:28,782 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.IgnoreConfB.getVarA()
+2016-10-19 11:57:28,782 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public static int com.baidu.disconf.client.test.model.StaticConf.getStaticVar()
+2016-10-19 11:57:28,782 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.IgnoreConfB.getVarA2()
+2016-10-19 11:57:28,786 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public java.lang.Long com.baidu.disconf.client.test.model.ConfA.getVarA2()
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF FILE===================
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF ITEM===================
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - public int com.baidu.disconf.client.test.model.ServiceA.getVarAA()
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF ACTIVE BACKUP===================
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.test.scan.inner.ScanPackTestCase - =============DISCONF Update service===================
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - class com.baidu.disconf.client.test.model.ServiceAUpdateCallback
+2016-10-19 11:57:28,787 [main] INFO  com.baidu.disconf.client.support.utils.ScanPrinterUtils - class com.baidu.disconf.client.test.model.ServiceA2UpdateCallback
